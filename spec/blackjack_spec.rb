@@ -50,8 +50,8 @@ end
 
 describe "#end_game" do
   it "prints apology, card total, and thank you message" do
-    expect($stdout).to receive(:puts).with("Sorry, you hit 27. Thanks for playing!")
-    end_game(27)
+    expect($stdout).to receive(:puts).with("Sorry, you hit 21. Thanks for playing!")
+    end_game(21)
   end
 end
 
