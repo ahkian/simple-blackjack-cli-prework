@@ -25,7 +25,8 @@ end
 def initial_round
   sum = deal_card
   sum += deal_card
-  puts "/Your cards add up to #{display_card_total(sum)}/"
+  puts "/Your cards add up to /"
+  display_card_total(sum)
 end
 
 def hit?
