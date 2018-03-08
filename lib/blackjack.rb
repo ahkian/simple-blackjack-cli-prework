@@ -30,7 +30,7 @@ def initial_round
 end
 
 def hit?(input)
-  
+
 end
 
 def invalid_command
