@@ -29,8 +29,8 @@ def initial_round
   sum
 end
 
-def hit?
-  # code hit? here
+def hit?(input)
+  
 end
 
 def invalid_command
