@@ -50,7 +50,7 @@ end
 #####################################################
 
 def runner
-  welcome 
+  welcome
   initial_round
   until total > 21
     hit?(total)
