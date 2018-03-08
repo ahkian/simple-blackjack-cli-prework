@@ -30,7 +30,13 @@ def initial_round
 end
 
 def hit?(input)
+  prompt_user
+  answer = get_user_input
+  if answer == "h"
+    
+  elsif answer == "s"
 
+  end
 end
 
 def invalid_command
