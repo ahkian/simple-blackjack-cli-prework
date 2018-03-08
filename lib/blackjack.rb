@@ -19,7 +19,7 @@ def get_user_input
 end
 
 def end_game(total)
-  
+
 end
 
 def initial_round
